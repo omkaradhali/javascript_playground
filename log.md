@@ -20,3 +20,9 @@
 **Today's Progress**: Destructuring and Spread operator ES6
 
 **Notes:** Destructuring and spread operator are really useful and I am going to make sure I use it more often. Solved some of the challenges on FreeCodeCamp to make sure I understood the concepts and use cases. They key is not to just understand but identify the scenario and practice so that it comes to me naturally. I have started from the very basic just for this purpose.
+
+### Day 4: Jan 18, 2019 
+
+
+**Today's Progress**: CSS Grid
+**Notes:** Started studying CSS grid. Need to start taking better notes as I am sure it will get confusing as I proceed. Resources used are Wes Bos free course on CSS grid and https://css-tricks.com/snippets/css/complete-guide-grid/ . Over the weekend will try to finish up the course or finish major chunk of it.
