@@ -26,3 +26,10 @@
 
 **Today's Progress**: CSS Grid
 **Notes:** Started studying CSS grid. Need to start taking better notes as I am sure it will get confusing as I proceed. Resources used are Wes Bos free course on CSS grid and https://css-tricks.com/snippets/css/complete-guide-grid/ . Over the weekend will try to finish up the course or finish major chunk of it.
+
+### Day 5: Jan 19, 2019 
+
+
+**Today's Progress**: ES6 challenges, CSS grid, React project requirements.
+
+**Notes:** Today was a good day. Finished the ES6 challenges on freeCodeCamp. Studied the requirements for react project and have a rough design ready for that.
