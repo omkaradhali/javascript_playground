@@ -33,3 +33,11 @@
 **Today's Progress**: ES6 challenges, CSS grid, React project requirements.
 
 **Notes:** Today was a good day. Finished the ES6 challenges on freeCodeCamp. Studied the requirements for react project and have a rough design ready for that.
+
+
+### Day 6: Jan 20, 2019 
+
+
+**Today's Progress**: React app.
+
+**Notes:** It was a good idea to set up redux from scratch. Understood few things more clearly now.Good read https://www.valentinog.com/blog/redux/
