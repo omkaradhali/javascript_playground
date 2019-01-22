@@ -41,3 +41,11 @@
 **Today's Progress**: React app.
 
 **Notes:** It was a good idea to set up redux from scratch. Understood few things more clearly now.Good read https://www.valentinog.com/blog/redux/
+
+
+### Day 7: Jan 21, 2019 
+
+
+**Today's Progress**: Spent most of my time fixing node issue and then worked on react app.
+
+**Notes:** Fixed the node/npm issue. Spent a lot of time doing that. I am going to build a todo app with and without redux for practice. Will try to uitilize css grid that I have been learning.
