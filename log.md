@@ -49,3 +49,11 @@
 **Today's Progress**: Spent most of my time fixing node issue and then worked on react app.
 
 **Notes:** Fixed the node/npm issue. Spent a lot of time doing that. I am going to build a todo app with and without redux for practice. Will try to uitilize css grid that I have been learning.
+
+
+### Day 8: Jan 22, 2019 
+
+
+**Today's Progress**: Worked on todo app (with state)
+
+**Notes:** Used create-react-app to create a basic project for react. Initial commit includes a input, an add button and a list which will display all the item you add. Need to add more funtionality. There is no css added as of yet. Need to spend some more time.
