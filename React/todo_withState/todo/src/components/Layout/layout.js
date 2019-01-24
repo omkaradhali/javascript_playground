@@ -6,28 +6,48 @@ import List from './../List/list';
 
 class Layout extends Component {
     constructor(props){
-        super(props);
-        this.state = {
-            inputbox : "",
-            todo : [ ]
-        }
+      super(props);
+      this.state = {
+        inputbox : "",
+        todo : [ ]
+      }
 
-        this.changedInput = this.changedInput.bind(this);
-        this.clickedAddButton = this.clickedAddButton.bind(this);
+      this.changedInput = this.changedInput.bind(this);
+      this.clickedAddButton = this.clickedAddButton.bind(this);
+      this.removeItem = this.removeItem.bind(this);
+      this.onKeyDown = this.onKeyDown.bind(this);
     }
 
     changedInput(event){
-        let text = this.state.inputbox;
-        text = event.target.value;
-        this.setState({inputbox: text});
+      event.preventDefault();
+      let text = this.state.inputbox;
+      text = event.target.value;
+      this.setState({inputbox: text});
     }
 
-    clickedAddButton(){
+    clickedAddButton(){  
+        let inputbox = this.state.inputbox;
         let todo = this.state.todo;
-        let inputbox = "";
-        todo.push(this.state.inputbox);
-        this.setState({todo, inputbox});
+        let todoItem = {
+                        task : inputbox, 
+                        _id : 'id-' + Math.random().toString(36).substr(2,16)
+                        };
+        todo.push(todoItem);
+        this.setState({todo, inputbox : ""});
     }
+
+    removeItem(event) {
+        event.preventDefault();
+        let todo = this.state.todo.filter(item => item._id !== event.target.dataset.id);
+        this.setState({todo});
+    }
+
+    onKeyDown(event){
+        if (event.key === 'Enter') {
+          event.preventDefault();
+          this.clickedAddButton();
+        }
+      }
 
     render(){
         return(
@@ -35,10 +55,12 @@ class Layout extends Component {
                 <div className="header item">
                     <Control onInputChange = {this.changedInput}
                               onButtonClick = {this.clickedAddButton}
-                              inputValue = {this.state.inputbox}/>
+                              inputValue = {this.state.inputbox}
+                              onKeyDown = {this.onKeyDown}/>
                 </div>
-                <div className="content">
-                    <List todos = {this.state.todo} />
+                <div className="content item">
+                    <List todos = {this.state.todo} 
+                            removeItem = {this.removeItem}/>
                 </div>
                 <div className="footer">
                     <p>Footer</p>

@@ -1,0 +1,21 @@
+.contentContainer { 
+    display: grid;
+    
+    grid-template-areas: "pad content pad";
+    grid-gap: 20px;
+    grid-auto-flow: row;
+}
+
+.paper {
+    width: 100%;
+    background: #fff;
+    color: #a3a3a3;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+    border: 0;
+    outline: 0;
+    padding: 22px 18px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 20px;
+}

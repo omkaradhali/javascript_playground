@@ -1,12 +1,13 @@
 body {
     display: grid;
-    background-color: antiquewhite
+    background-color: #efefef;
+    font-size: 20px;
 }
 
 .container {
     display: grid;
     grid-template-columns: 100px 1fr 100px;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 150px 2fr 1fr;
     grid-gap: 20px;
     grid-template-areas: 
     "header header header"
@@ -30,8 +31,8 @@ body {
 }
 
 .item {
-    /* We center the contents of these items. You can also do this with flexbox too! */
     display: grid;
     justify-content: center;
     align-items: center;
+    grid-template-columns: 1fr;
   }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './list.css';
 
 class List extends Component{
     constructor(props){
@@ -7,24 +8,28 @@ class List extends Component{
             strikeThrough : false
         }
 
-        // this.itemClicked = this.itemClicked.bind(this);
+        this.itemClicked = this.itemClicked.bind(this);
     }
 
-    // itemClicked(event) {
-    //     this.setState({strikeThrough : !this.state.strikeThrough});
-    // }
+    itemClicked(event) {
+        console.log(event.target.dataset.id);
+    }
     render(){
         return(
-            <ul>
-                {this.props.todos.map(item => {
-                return <li key={item} 
-                            onClick={this.itemClicked}
-                            // style={{
-                            //     textDecoration: this.state.strikeThrough ? 'line-through' : 'none',
-                            //   }}
-                              >{item}</li>
-                })}
-            </ul>
+            <div className = "contentContainer">
+                
+                    {this.props.todos.map(item => {
+                    return (
+                        <div key={item._id} className="paper" onClick={this.props.removeItem}
+                            data-id={item._id}>
+
+                            {item.task}
+                        </div>
+                    )
+                    })}
+                
+            </div>
+            
         )
     }
 }
