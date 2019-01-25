@@ -65,3 +65,11 @@
 **Today's Progress**: Worked on todo app (with state). Added logic to remove items and added css
 
 **Notes:** Need to be careful with CSS as trial and error method takes a lot of time. Next item would be to shft todo on one side and add pomodoro timer too.
+
+
+### Day 10: Jan 24, 2019 
+
+
+**Today's Progress**: Worked on ES6 course by Wes Bos
+
+**Notes:** Planning a revision day over the weekend to go through all the concepts.
