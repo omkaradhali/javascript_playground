@@ -9,6 +9,7 @@ class Layout extends Component {
       super(props);
       this.state = {
         inputbox : "",
+        doneItem : "",
         todo : [ ]
       }
 
@@ -16,6 +17,7 @@ class Layout extends Component {
       this.clickedAddButton = this.clickedAddButton.bind(this);
       this.removeItem = this.removeItem.bind(this);
       this.onKeyDown = this.onKeyDown.bind(this);
+      this.doneItem = this.doneItem.bind(this);
     }
 
     changedInput(event){
@@ -30,7 +32,8 @@ class Layout extends Component {
         let todo = this.state.todo;
         let todoItem = {
                         task : inputbox, 
-                        _id : 'id-' + Math.random().toString(36).substr(2,16)
+                        _id : 'id-' + Math.random().toString(36).substr(2,16),
+                        doneTask : ""
                         };
         todo.push(todoItem);
         this.setState({todo, inputbox : ""});
@@ -39,6 +42,17 @@ class Layout extends Component {
     removeItem(event) {
         event.preventDefault();
         let todo = this.state.todo.filter(item => item._id !== event.target.dataset.id);
+        this.setState({todo});
+    }
+
+    doneItem(event){
+        event.preventDefault();
+        let todo = this.state.todo.map(item => {
+          if(item._id === event.target.dataset.id){
+              item.doneTask = (item.doneTask) ? "" : "doneTask";
+          }
+          return item;  
+        });
         this.setState({todo});
     }
 
@@ -60,7 +74,9 @@ class Layout extends Component {
                 </div>
                 <div className="content item">
                     <List todos = {this.state.todo} 
-                            removeItem = {this.removeItem}/>
+                            removeItem = {this.removeItem}
+                            doneItem = {this.doneItem}
+                            />
                 </div>
                 <div className="footer">
                     <p>Footer</p>

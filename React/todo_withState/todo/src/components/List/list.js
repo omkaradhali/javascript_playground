@@ -20,10 +20,15 @@ class List extends Component{
                 
                     {this.props.todos.map(item => {
                     return (
-                        <div key={item._id} className="paper" onClick={this.props.removeItem}
-                            data-id={item._id}>
+                        <div key={item._id} className="paper"  >
+                                <p className={`itemWidth ${item.doneTask}`} 
+                                        onClick={this.props.doneItem} 
+                                        data-id={item._id}>
 
-                            {item.task}
+                                        {item.task}
+
+                                </p>
+                                <span data-id={item._id} className="deleteItem" onClick={this.props.removeItem}>DEL</span>
                         </div>
                     )
                     })}
