@@ -73,3 +73,11 @@
 **Today's Progress**: Worked on ES6 course by Wes Bos
 
 **Notes:** Planning a revision day over the weekend to go through all the concepts.
+
+
+### Day 11: Jan 25, 2019 
+
+
+**Today's Progress**: Worked on to-do app. Added Strike-through feature and del button.
+
+**Notes:** CSS gives me a tough time. Need to work on that. Need to learn not to depend on trial and error method.
