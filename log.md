@@ -57,3 +57,19 @@
 **Today's Progress**: Worked on todo app (with state)
 
 **Notes:** Used create-react-app to create a basic project for react. Initial commit includes a input, an add button and a list which will display all the item you add. Need to add more funtionality. There is no css added as of yet. Need to spend some more time.
+
+
+### Day 9: Jan 23, 2019 
+
+
+**Today's Progress**: Worked on todo app (with state). Added logic to remove items and added css
+
+**Notes:** Need to be careful with CSS as trial and error method takes a lot of time. Next item would be to shft todo on one side and add pomodoro timer too.
+
+
+### Day 10: Jan 24, 2019 
+
+
+**Today's Progress**: Worked on ES6 course by Wes Bos
+
+**Notes:** Planning a revision day over the weekend to go through all the concepts.
