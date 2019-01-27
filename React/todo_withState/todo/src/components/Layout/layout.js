@@ -79,7 +79,7 @@ class Layout extends Component {
                             />
                 </div>
                 <div className="footer">
-                    <p>Footer</p>
+                    
                 </div>    
             </div>
         )
