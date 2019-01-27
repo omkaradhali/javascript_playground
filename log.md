@@ -81,3 +81,11 @@
 **Today's Progress**: Worked on to-do app. Added Strike-through feature and del button.
 
 **Notes:** CSS gives me a tough time. Need to work on that. Need to learn not to depend on trial and error method.
+
+
+### Day 12: Jan 26, 2019 
+
+
+**Today's Progress**: FInished ES6 Challenges on freeCodeCamp and halfway through data structure challenges. Worked on unsplash api and openWeather api. Had a rough design for the weather app.
+
+**Notes:** Today was a very productive day as I got accomplished a lot. Need to study the unsplash and openWeather api a bit more to determine and finalize the weather app design.
