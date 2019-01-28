@@ -66,17 +66,19 @@ class Layout extends Component {
     render(){
         return(
             <div className = "container">
-                <div className="header item">
-                    <Control onInputChange = {this.changedInput}
-                              onButtonClick = {this.clickedAddButton}
-                              inputValue = {this.state.inputbox}
-                              onKeyDown = {this.onKeyDown}/>
-                </div>
-                <div className="content item">
-                    <List todos = {this.state.todo} 
-                            removeItem = {this.removeItem}
-                            doneItem = {this.doneItem}
-                            />
+                <div className="customCard">
+                    <div className="header item">
+                        <Control onInputChange = {this.changedInput}
+                                onButtonClick = {this.clickedAddButton}
+                                inputValue = {this.state.inputbox}
+                                onKeyDown = {this.onKeyDown}/>
+                    </div>
+                    <div className="content item">
+                        <List todos = {this.state.todo} 
+                                removeItem = {this.removeItem}
+                                doneItem = {this.doneItem}
+                                />
+                    </div>
                 </div>
                 <div className="footer">
                     
