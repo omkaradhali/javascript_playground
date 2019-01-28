@@ -97,3 +97,12 @@
 **Today's Progress**: Worked on Data Structures Challenges on FreeCodeCamp.
 
 **Notes:** Played around a bit with unsplash api. Will check in the code tomorrow which will make calls to api and fetch random pic to be background for the weather-app.
+
+
+
+### Day 14: Jan 28, 2019 
+
+
+**Today's Progress**: Worked on To-Do app to incorporate the pomodoro timer. Also worked a bit on UT
+
+**Notes:** Need to do research on how to show pomodoro timer(ideas) and also come up with some UI design.
