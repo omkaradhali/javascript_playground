@@ -106,3 +106,11 @@
 **Today's Progress**: Worked on To-Do app to incorporate the pomodoro timer. Also worked a bit on UT
 
 **Notes:** Need to do research on how to show pomodoro timer(ideas) and also come up with some UI design.
+
+
+### Day 15: Jan 29, 2019 
+
+
+**Today's Progress**: Worked on ES6 course by wes bos
+
+**Notes:** No notes just went through basics from ES6 course.
