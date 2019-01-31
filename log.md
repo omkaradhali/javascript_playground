@@ -114,3 +114,11 @@
 **Today's Progress**: Worked on ES6 course by wes bos
 
 **Notes:** No notes just went through basics from ES6 course.
+
+
+### Day 16: Jan 30, 2019 
+
+
+**Today's Progress**: Worked on To Do App. Added basic css and designed the layout for pomodoro timer.
+
+**Notes:** A good lesson learned today. It is easy to get distracted if I do not design the layout first on paper and then start coding.
