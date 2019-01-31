@@ -80,8 +80,15 @@ class Layout extends Component {
                                 />
                     </div>
                 </div>
-                <div className="footer">
-                    
+                <div className="pomodoro">
+                    <div className="timer">
+                        <span className="minutes">25</span>
+                        <span className="separator">:</span>
+                        <span className="seconds">00</span>
+                    </div>
+                    <span>
+                        <button type="text" className="pomodoroButton">Start</button>
+                    </span>
                 </div>    
             </div>
         )
