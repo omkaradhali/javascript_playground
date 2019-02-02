@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    background-color: #efefef;
+    font-size: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 200px 500px 200px;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "padding header padding"
+    "padding content padding"
+    "padding footer padding"
+}
+
+.cityInput{
+    grid-area: "header";
+    grid-column: 2 / 3;
+}
