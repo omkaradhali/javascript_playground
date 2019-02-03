@@ -139,3 +139,11 @@
 **Today's Progress**: Worked on Algorithm Scripting challenges from freeCodeCamp. Worked on setting up CSS grid to the weather-app.
 
 **Notes:** Need to stay in touch with basic concepts like slice(), substring() and split().
+
+
+### Day 19: Feb 2, 2019 
+
+
+**Today's Progress**: Worked on weather app. Went through documentation for open weather map api.
+
+**Notes:** Pushing unsplash api use on backseat untill I finish with the weather api.
