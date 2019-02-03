@@ -1,0 +1,13 @@
+.customInput {
+    background: #fff;
+    color: #3d3d3d !important;
+    margin-top: 5%;
+    width: 30%;
+    height: 40px;
+    font-size: 22px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+    border: 0;
+    outline: 0;
+    padding: 22px 18px;
+    box-sizing: border-box;
+}

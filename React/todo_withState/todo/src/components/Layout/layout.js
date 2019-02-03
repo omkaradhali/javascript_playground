@@ -20,6 +20,10 @@ class Layout extends Component {
       this.doneItem = this.doneItem.bind(this);
     }
 
+    componentDidMount(){
+        
+    }
+
     changedInput(event){
       event.preventDefault();
       let text = this.state.inputbox;
@@ -61,7 +65,7 @@ class Layout extends Component {
           event.preventDefault();
           this.clickedAddButton();
         }
-      }
+    }
 
     render(){
         return(
