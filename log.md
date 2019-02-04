@@ -147,3 +147,12 @@
 **Today's Progress**: Worked on weather app. Went through documentation for open weather map api.
 
 **Notes:** Pushing unsplash api use on backseat untill I finish with the weather api.
+
+
+
+### Day 20: Feb 3, 2019 
+
+
+**Today's Progress**: Solved some challenges on CSS Gird (@wesbos css grid course)
+
+**Notes:** Will be focusing on react project for the next whole week.
