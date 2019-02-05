@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./layout.css";
 import Control from "./../control/control";
+import Weather from "./../weather/weather";
 
 class Layout extends Component{
     constructor(props){
@@ -8,6 +9,9 @@ class Layout extends Component{
 
         this.state = {
             inputText : "",
+            temp: "9",
+            description: "Cloudy with a chance of meatballs",
+            city:"Baltimore"
         }
 
         this.onChange = this.onChange.bind(this);
@@ -39,6 +43,9 @@ class Layout extends Component{
                                 inputValue = {this.state.inputText}
                                 onKeyDown = {this.onKeyDown}
                     />
+                    <Weather temp={this.state.temp} 
+                                description={this.state.description} 
+                                city = {this.state.city}/>
                 </div>
             </div>  
         )
