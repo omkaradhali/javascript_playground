@@ -156,3 +156,11 @@
 **Today's Progress**: Solved some challenges on CSS Gird (@wesbos css grid course)
 
 **Notes:** Will be focusing on react project for the next whole week.
+
+
+### Day 21: Feb 4, 2019 
+
+
+**Today's Progress**: Solved some challenges on Free code camp.
+
+**Notes:** Need to resolve these challenges on paper first. Should limit use of console.log()
