@@ -13,7 +13,9 @@ class Weather extends Component {
           <span>{this.props.city}</span>
         </div>
         <div className="temperature">
-          <span>{this.props.temp}&deg;C</span>
+          {this.props.temp && (
+            <span>{this.props.temp}&deg;C</span>
+          )}
         </div>
         <div className="desc">
           <span>{this.props.description}</span>

@@ -10,9 +10,10 @@ class Layout extends Component{
 
         this.state = {
             inputText : "",
-            temp: "9",
-            description: "Cloudy with a chance of meatballs",
-            city:"Baltimore"
+            temp: "",
+            weather: "",
+            description: "",
+            city:""
         }
 
         this.onChange = this.onChange.bind(this);
@@ -30,10 +31,17 @@ class Layout extends Component{
             let location = this.state.inputText;
             
             //need to make an api call from here.
-            axios.get(`https://api.openweathermap.org/data/2.5/find?q=Baltimore&units=metric&appid=e384de364ace2d981267aa5b8cffb792`)
+            axios.get('https://api.openweathermap.org/data/2.5/find?&units=metric&appid=e384de364ace2d981267aa5b8cffb792&q=' + location)
             .then(res => {
-                //const persons = res.data;
-                console.log(res.data);
+                let data = res.data;
+                
+                let temp = Math.ceil(data.list[0].main.temp);
+                let city = data.list[0].name;
+                let desc = data.list[0].weather[0].description;
+                let description = desc.charAt(0).toUpperCase() + desc.slice(1);
+                let weather = data.list[0].weather[0].main;
+                this.setState({city,temp,description,weather});
+                
             })
             this.setState({inputText: ""});
         }
@@ -50,7 +58,8 @@ class Layout extends Component{
                     />
                     <Weather temp={this.state.temp} 
                                 description={this.state.description} 
-                                city = {this.state.city}/>
+                                city = {this.state.city}
+                                weather = {this.state.weather}/>
                 </div>
             </div>  
         )
