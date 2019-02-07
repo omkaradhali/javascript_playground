@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./layout.css";
 import Control from "./../control/control";
+import axios from 'axios';
 
 class Layout extends Component{
     constructor(props){
@@ -25,7 +26,11 @@ class Layout extends Component{
             let location = this.state.inputText;
             
             //need to make an api call from here.
-
+            axios.get(`https://api.openweathermap.org/data/2.5/find?q=Baltimore&units=metric&appid=e384de364ace2d981267aa5b8cffb792`)
+            .then(res => {
+                //const persons = res.data;
+                console.log(res.data);
+            })
             this.setState({inputText: ""});
         }
     }
