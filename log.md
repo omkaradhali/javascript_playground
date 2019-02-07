@@ -161,12 +161,21 @@
 ### Day 21: Feb 4, 2019 
 
 
+**Today's Progress**: Added some css and grid placement for weather app information.
+
+**Notes:** None.
+
+
+
+### Day 22: Feb 5, 2019 
+
+
 **Today's Progress**: Solved some challenges on Free code camp.
 
 **Notes:** Need to resolve these challenges on paper first. Should limit use of console.log()
 
 
-### Day 22: Feb 5, 2019 
+### Day 23: Feb 6, 2019 
 
 
 **Today's Progress**: Worked on calling open weather map api to retrieve weather of city enetered.
