@@ -164,3 +164,11 @@
 **Today's Progress**: Solved some challenges on Free code camp.
 
 **Notes:** Need to resolve these challenges on paper first. Should limit use of console.log()
+
+
+### Day 22: Feb 5, 2019 
+
+
+**Today's Progress**: Worked on calling open weather map api to retrieve weather of city enetered.
+
+**Notes:** Need better error handling and type ahead feature for city names.
