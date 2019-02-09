@@ -181,3 +181,19 @@
 **Today's Progress**: Worked on calling open weather map api to retrieve weather of city enetered.
 
 **Notes:** Need better error handling and type ahead feature for city names.
+
+
+### Day 24: Feb 7, 2019 
+
+
+**Today's Progress**: Started a new course tor evise data structures and algorithms.
+
+**Notes:** 
+
+
+### Day 25: Feb 8, 2019 
+
+
+**Today's Progress**: Continues going through the course for data structures and algorithms. Revised ES6 destructuring and spread operator.
+
+**Notes:** 
