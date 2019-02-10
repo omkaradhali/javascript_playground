@@ -197,3 +197,11 @@
 **Today's Progress**: Continues going through the course for data structures and algorithms. Revised ES6 destructuring and spread operator.
 
 **Notes:** 
+
+
+### Day 26: Feb 9, 2019 
+
+
+**Today's Progress**: Worked on React app for Mike.
+
+**Notes:** 
