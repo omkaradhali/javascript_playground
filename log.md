@@ -205,3 +205,10 @@
 **Today's Progress**: Worked on React app for Mike.
 
 **Notes:** 
+
+### Day 27: Feb 10, 2019 
+
+
+**Today's Progress**: Worked on React app for Mike and also algorithms and data structures course on Udemy.
+
+**Notes:** 
