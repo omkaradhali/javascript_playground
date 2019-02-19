@@ -212,3 +212,10 @@
 **Today's Progress**: Worked on React app for Mike and also algorithms and data structures course on Udemy.
 
 **Notes:** 
+
+### Day 28: Feb 18, 2019 
+
+
+**Today's Progress**: Worked on algorithms and data structures course on Udemy.
+
+**Notes:** Had a week long break. Had a deadline for go live few days back. Will continue these 100days starting today again. Will extend the hundred days by one week.
