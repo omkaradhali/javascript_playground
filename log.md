@@ -156,3 +156,59 @@
 **Today's Progress**: Solved some challenges on CSS Gird (@wesbos css grid course)
 
 **Notes:** Will be focusing on react project for the next whole week.
+
+
+### Day 21: Feb 4, 2019 
+
+
+**Today's Progress**: Added some css and grid placement for weather app information.
+
+**Notes:** None.
+
+
+
+### Day 22: Feb 5, 2019 
+
+
+**Today's Progress**: Solved some challenges on Free code camp.
+
+**Notes:** Need to resolve these challenges on paper first. Should limit use of console.log()
+
+
+### Day 23: Feb 6, 2019 
+
+
+**Today's Progress**: Worked on calling open weather map api to retrieve weather of city enetered.
+
+**Notes:** Need better error handling and type ahead feature for city names.
+
+
+### Day 24: Feb 7, 2019 
+
+
+**Today's Progress**: Started a new course tor evise data structures and algorithms.
+
+**Notes:** 
+
+
+### Day 25: Feb 8, 2019 
+
+
+**Today's Progress**: Continues going through the course for data structures and algorithms. Revised ES6 destructuring and spread operator.
+
+**Notes:** 
+
+
+### Day 26: Feb 9, 2019 
+
+
+**Today's Progress**: Worked on React app for Mike.
+
+**Notes:** 
+
+### Day 27: Feb 10, 2019 
+
+
+**Today's Progress**: Worked on React app for Mike and also algorithms and data structures course on Udemy.
+
+**Notes:** 
