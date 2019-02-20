@@ -219,3 +219,10 @@
 **Today's Progress**: Worked on algorithms and data structures course on Udemy.
 
 **Notes:** Had a week long break. Had a deadline for go live few days back. Will continue these 100days starting today again. Will extend the hundred days by one week.
+
+### Day 29: Feb 19, 2019 
+
+
+**Today's Progress**: Worked on algorithms and data structures course on Udemy.
+
+**Notes:** Solved 2 problems and also optimized them for O(n)
