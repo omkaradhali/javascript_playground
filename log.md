@@ -238,3 +238,11 @@
 **Today's Progress**: Worked on algorithms and data structures course on Udemy.
 
 **Notes:** Solved 2 problems.
+
+
+### Day 4: Feb 21, 2019 
+
+
+**Today's Progress**: Worked on algorithms and data structures course on Udemy. Worked on ES6 course by Wes bos
+
+**Notes:** Tomorrow will solve more interview problems.
