@@ -246,3 +246,11 @@
 **Today's Progress**: Worked on algorithms and data structures course on Udemy. Worked on ES6 course by Wes bos
 
 **Notes:** Tomorrow will solve more interview problems.
+
+
+### Day 5: Feb 22, 2019 
+
+
+**Today's Progress**: Worked on a console node app for weather search based on city name.
+
+**Notes:** 
