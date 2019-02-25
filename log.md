@@ -254,3 +254,19 @@
 **Today's Progress**: Worked on a console node app for weather search based on city name.
 
 **Notes:** 
+
+
+### Day 6: Feb 23, 2019 
+
+
+**Today's Progress**: Worked on UC admin dashboard and debugged some issues.
+
+**Notes:** 
+
+
+### Day 7: Feb 24, 2019 
+
+
+**Today's Progress**: Worked on UC admin dashboard and debugged some issues.
+
+**Notes:** 
