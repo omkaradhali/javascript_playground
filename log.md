@@ -270,3 +270,11 @@
 **Today's Progress**: Worked on UC admin dashboard and debugged some issues.
 
 **Notes:** 
+
+
+### Day 8: Feb 25, 2019 
+
+
+**Today's Progress**: Solved few problems based on frequency couter. Added callback and promise to weather app (Node version)
+
+**Notes:** 
