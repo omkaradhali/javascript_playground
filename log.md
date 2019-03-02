@@ -278,3 +278,33 @@
 **Today's Progress**: Solved few problems based on frequency couter. Added callback and promise to weather app (Node version)
 
 **Notes:** 
+
+
+### Day 9: Feb 26, 2019 
+
+
+**Today's Progress**: Worked on Node.js course on Udemy.
+**Notes:** 
+
+
+### Day 10: Feb 27, 2019 
+
+
+**Today's Progress**: Worked on Node.js course on Udemy.
+
+**Notes:** 
+
+
+### Day 11: Feb 28, 2019 
+
+
+**Today's Progress**: Worked on Node.js course on Udemy.
+
+**Notes:** 
+
+### Day 12: March 1, 2019 
+
+
+**Today's Progress**: Taking a break from Node and going back to data structures and algorithms.
+
+**Notes:** 
