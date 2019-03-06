@@ -308,3 +308,43 @@
 **Today's Progress**: Taking a break from Node and going back to data structures and algorithms.
 
 **Notes:** 
+
+
+### Day 13: March 2, 2019 
+
+
+**Today's Progress**: Working on data structures and algorithms.
+
+**Notes:** 
+
+
+### Day 14: March 3, 2019 
+
+
+**Today's Progress**: Working on data structures and algorithms.
+
+**Notes:** 
+
+
+### Day 15: March 4, 2019 
+
+
+**Today's Progress**: Workin on react app UC admin panel.
+
+**Notes:** 
+
+
+### Day 16: March 5, 2019 
+
+
+**Today's Progress**: Solved some problems on recursion.
+
+**Notes:** 
+
+
+### Day 12: March 1, 2019 
+
+
+**Today's Progress**: Taking a break from Node and going back to data structures and algorithms.
+
+**Notes:** 
