@@ -342,9 +342,3 @@
 **Notes:** 
 
 
-### Day 12: March 1, 2019 
-
-
-**Today's Progress**: Taking a break from Node and going back to data structures and algorithms.
-
-**Notes:** 
