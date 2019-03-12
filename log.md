@@ -342,12 +342,9 @@
 **Notes:** 
 
 
-<<<<<<< HEAD
 ### Day 17 - Day 21: March 6, 2019 - March 11, 2019 
 
 
 **Today's Progress**: Working on Free code camp challenges and interview problems.
 
 **Notes:** 
-=======
->>>>>>> 8b791edfa33fd0695f0051ec90057945ed9fd119
