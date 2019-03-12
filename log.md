@@ -342,9 +342,9 @@
 **Notes:** 
 
 
-### Day 12: March 1, 2019 
+### Day 17 - Day 21: March 6, 2019 - March 11, 2019 
 
 
-**Today's Progress**: Taking a break from Node and going back to data structures and algorithms.
+**Today's Progress**: Working on Free code camp challenges and interview problems.
 
 **Notes:** 
