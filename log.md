@@ -348,3 +348,11 @@
 **Today's Progress**: Working on Free code camp challenges and interview problems.
 
 **Notes:** 
+
+
+### Day 22: March 12, 2019 
+
+
+**Today's Progress**: Worked on some node.js basics. Tyring to create routes without using express.js
+
+**Notes:** 
