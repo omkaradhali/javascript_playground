@@ -356,3 +356,12 @@
 **Today's Progress**: Worked on some node.js basics. Tyring to create routes without using express.js
 
 **Notes:** 
+
+
+
+### Day 23: March 13, 2019 
+
+
+**Today's Progress**: Worked on some node.js -> express.js. Also revised bubble sort and selection sort.
+
+**Notes:** 
