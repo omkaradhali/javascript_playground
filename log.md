@@ -365,3 +365,11 @@
 **Today's Progress**: Worked on some node.js -> express.js. Also revised bubble sort and selection sort.
 
 **Notes:** 
+
+
+### Day 23 - 29: March 13 - March 19, 2019 
+
+
+**Today's Progress**: Worked on some node.js -> express.js. Started a project shop-all-things.
+
+**Notes:**
